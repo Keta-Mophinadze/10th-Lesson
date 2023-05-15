@@ -46,6 +46,9 @@
         height: 48px;
         margin-right: 20px;
     }
+    .burger-bar {
+        display: none;
+    }
 
     
 }
@@ -139,13 +142,10 @@
 
 /* 375 */
 
-@media (min-width: 376px) {
-    .burger-bar {
-        display: none;
-    }
-}
-
 @media (max-width: 375px) {
+    .burger-bar {
+        display: inline-block;
+    }
     .header {
         padding-bottom: 65px;
     }
@@ -164,6 +164,9 @@
         text-align: center;
         margin: 0 auto;
         width: 90%;
+    }
+    .div-p-item {
+        width: 100%;
     }
     /* .action-div-button {
         width: 90px;
