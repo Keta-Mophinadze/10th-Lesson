@@ -125,14 +125,16 @@
     background-color: #000000;
     padding: 96px 0 96px 0;
 }
-.main.wrapper {
-    display: flex;
-}
 .footer-container {
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
     color: #fff;
+}
+.footer-logo-block {
+    display: flex;
+    align-items: flex-start;
+    margin-left: 30px;
 }
 .footer-column-block h6,
 .subscribe h6 {
@@ -149,10 +151,6 @@
     width: 228px;
     mix-blend-mode: normal;
     opacity: 0.4;
-}
-.footer-logo-block {
-    display: 100%;
-    margin-left: 120px;
 }
 
 

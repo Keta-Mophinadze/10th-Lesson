@@ -51,13 +51,12 @@
         align-items: center;
         margin-bottom: 16px;
     }
-    .background {
-        padding: 96px 0 96px 0;
-    }
     .second-section-block {
         display: flex;
         justify-content: space-around;
         align-items: center;
+        padding-top: 96px;
+
     }
     .left-side-block {
         width: 503.5px;
@@ -70,6 +69,7 @@
     }
     .room-image {
         width: 100%;
+        margin: 96px 0 0 0;
     }
 }
 /* 1440 */
@@ -112,11 +112,9 @@
     .feature-container {
         padding: 39px 32px 39px 32px;
     }
-    .background {
-        padding: 32px 0 64px 0;
-    }
     .second-section-block {
         display: block;
+        padding-top: 32px;
     }
     .house-image-block {
         width: 95%;
@@ -212,10 +210,6 @@
         display: block;
         text-align: center;
     }
-    .background {
-        padding: 24px 0 24px 0;
-    }
-   
     .headline-block h5 {
         width: 100%;
         margin-top: 29px 0 29px 0;
