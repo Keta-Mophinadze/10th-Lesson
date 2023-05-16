@@ -1,3 +1,4 @@
+/* HEADER */
 .inter {
     font-family: 'Inter';
     font-style: normal;
@@ -13,7 +14,6 @@
     position: fixed;
     width: 100%;
     z-index: 10;
-
 }
 .ul-li-item {
     width: 328px;
@@ -36,13 +36,11 @@
     font-size: 16px;
     line-height: 24px;
 }
-
-
+/* HEADER */
 /* FIRST SECTION */
 .first-section-block {
     margin: 0 auto;
 }
-
 .text-block {
     text-align: center;
 }
@@ -51,8 +49,6 @@
     color: #000000;
     font-weight: 900;
     margin-bottom: 24px;
-    /* font-size: 56px;
-    line-height: 60px; */
 }
 .text-block p {
     color: #000000;
@@ -61,8 +57,6 @@
     line-height: 28px;
 }
 .action-div-button {
-    /* width: 100px;
-    height: 48px; */
     background: #000000;
     border: none;
     border-radius: 32px;
@@ -75,25 +69,93 @@
     color: #000000;
     font-weight: 600;
     font-size: 14px;
-
 }
-
-
-/* .div-image {
-    background-image: url(../images/img.jpg);
-    width: 490px;
-    height: 428px;
+/* FEATURE BLOCK */
+.black-circle {
+    background: #000000;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 16px;
 }
-.first-section-block {
+.black-circle h6 {
+    color: #000000;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+}
+.feature-block p {
+    color: #000000;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+}
+/* FEATURE BLOCK */
+/* FIRST SECTION */
+
+/* SECOND SECTION */
+.room-image {
+    display: block;
+}
+.background {
+    background-color: #000000;
+}
+.house-image {
+    border-radius: 13px;
+}
+.headline-block {
+    color: #fff;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.1px;
+}
+.second-section-block p {
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+}
+/* SECOND SECTION */
+
+/* FOOTER  */
+.footer {
+    background-color: #000000;
+    padding: 96px 0 96px 0;
+}
+.main.wrapper {
+    display: flex;
+}
+.footer-container {
     display: flex;
     justify-content: space-around;
-    align-items: center;
-    margin: 0 auto;
+    align-items: flex-start;
+    color: #fff;
 }
-.text-block {
-    background-color: lightgrey;
-    width: 490px;
-    height: 120px;
+.footer-column-block h6,
+.subscribe h6 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    margin-bottom: 16px;
 }
- */
+.footer-column-block {
+    line-height: 25px;
+}
+.subscribe p {
+    width: 228px;
+    mix-blend-mode: normal;
+    opacity: 0.4;
+}
+.footer-logo-block {
+    display: 100%;
+    margin-left: 120px;
+}
+
+
+
+
 
